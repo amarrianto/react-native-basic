@@ -24,7 +24,7 @@ export default class Design extends Component {
           <View style={styles.garis} />
           <View style={styles.isi}>
             <Text>Ini adalah state: {name}</Text>
-            <Operan />
+            <Operan name={name}/>
             <TouchableOpacity>
               <Text style={styles.tombol} onPress={() => this.gantiState()}>
                 Ganti State
